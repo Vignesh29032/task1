@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsha Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1E3A5F;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+       
+        .hero-section {
+            padding: 100px 0;
+            text-align: left;
+        }
+        .btn-custom {
+            background-color: #3AA7F5;
+            color: white;
+            border-radius: 20px;
+        }
+       /* Ensure navbar and dropdown button have the same background */
+/* Navbar background and links */
+.navbar {
+    background: transparent !important;
+}
+
+/* Dropdown toggle styled like navbar links */
+.navbar .dropdown-toggle {
+    color: white !important;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+/* Dropdown menu styled like navbar */
+.dropdown-menu {
+    background-color: rgba(30, 58, 95, 0.9) !important; /* Match navbar color */
+    border: none;
+    backdrop-filter: blur(10px);
+}
+
+/* Dropdown items */
+.dropdown-item {
+    color: white !important;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">ARSHA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown 
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <a class="btn btn-custom ms-3" href="#">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container hero-section">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Better Solutions For Your Business</h1>
+                <p>We are a team of talented designers making websites with Bootstrap.</p>
+                <a class="btn btn-custom" href="#">Get Started</a>
+                <a class="btn btn-outline-light ms-2" href="#">Watch Video</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="1.png" alt="Hero Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
